@@ -5,7 +5,10 @@ from rclpy.node import Node
 class MyNode(Node):
     def __init__(self):
         super().__init__("testing_node")
-        self.get_logger().info("Hello there")
+        self.create_timer(1.0, self.timer_callback)
+    
+    def timer_callback(self):
+        self.get_logger().info("HIIIIII")
 
 def main(args=None):
     rclpy.init(args=args)
