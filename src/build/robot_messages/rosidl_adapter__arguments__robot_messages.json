@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_messages",
+  "non_idl_tuples": [
+    "/home/hubot/Documents/Github/RobotArmV1/src/robot_messages:msg/Targetposition.msg"
+  ]
+}

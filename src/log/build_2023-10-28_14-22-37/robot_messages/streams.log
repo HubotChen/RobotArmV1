@@ -1,0 +1,234 @@
+[0.342s] Invoking command in '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages -- -j4 -l4
+[0.370s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.688s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.694s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.104s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.663s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.687s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.687s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.687s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.699s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.712s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.714s] -- Added test 'lint_cmake' to check CMake code style
+[1.714s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.720s] -- Added test 'xmllint' to check XML markup files
+[1.725s] -- Configuring done
+[1.768s] -- Generating done
+[1.772s] -- Build files have been written to: /home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages
+[1.809s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_generator_c[0m
+[1.835s] [  3%] Built target robot_messages__cpp
+[1.847s] [  6%] [32m[1mLinking C shared library librobot_messages__rosidl_generator_c.so[0m
+[1.848s] [  6%] Built target ament_cmake_python_copy_robot_messages
+[1.896s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_typesupport_fastrtps_cpp[0m
+[1.906s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_typesupport_cpp[0m
+[1.910s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_typesupport_introspection_cpp[0m
+[1.934s] [  9%] [32m[1mLinking CXX shared library librobot_messages__rosidl_typesupport_cpp.so[0m
+[1.940s] [ 12%] [32mBuilding CXX object CMakeFiles/robot_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_messages/msg/detail/targetposition__type_support.cpp.o[0m
+[1.950s] [ 16%] [32mBuilding CXX object CMakeFiles/robot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_messages/msg/detail/dds_fastrtps/targetposition__type_support.cpp.o[0m
+[1.983s] [ 22%] Built target robot_messages__rosidl_generator_c
+[2.022s] [ 29%] Built target robot_messages__rosidl_typesupport_cpp
+[2.059s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_typesupport_fastrtps_c[0m
+[2.088s] [ 32%] [32mBuilding CXX object CMakeFiles/robot_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_messages/msg/detail/targetposition__type_support_c.cpp.o[0m
+[2.806s] running egg_info
+[2.809s] writing robot_messages.egg-info/PKG-INFO
+[2.811s] writing dependency_links to robot_messages.egg-info/dependency_links.txt
+[2.814s] writing top-level names to robot_messages.egg-info/top_level.txt
+[2.823s] reading manifest file 'robot_messages.egg-info/SOURCES.txt'
+[2.830s] writing manifest file 'robot_messages.egg-info/SOURCES.txt'
+[2.901s] [ 32%] Built target ament_cmake_python_build_robot_messages_egg
+[2.920s] [ 35%] [32m[1mLinking CXX shared library librobot_messages__rosidl_typesupport_fastrtps_c.so[0m
+[2.965s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_typesupport_introspection_c[0m
+[2.975s] [ 38%] [32m[1mLinking CXX shared library librobot_messages__rosidl_typesupport_introspection_cpp.so[0m
+[2.998s] [ 41%] [32mBuilding C object CMakeFiles/robot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_messages/msg/detail/targetposition__type_support.c.o[0m
+[3.009s] [ 45%] [32m[1mLinking CXX shared library librobot_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.101s] [ 48%] [32m[1mLinking C shared library librobot_messages__rosidl_typesupport_introspection_c.so[0m
+[3.120s] [ 51%] Built target robot_messages__rosidl_typesupport_fastrtps_c
+[3.120s] [ 54%] Built target robot_messages__rosidl_typesupport_introspection_cpp
+[3.154s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_typesupport_c[0m
+[3.184s] [ 58%] [32m[1mLinking CXX shared library librobot_messages__rosidl_typesupport_c.so[0m
+[3.212s] [ 61%] Built target robot_messages__rosidl_typesupport_introspection_c
+[3.232s] [ 64%] Built target robot_messages__rosidl_typesupport_fastrtps_cpp
+[3.263s] [ 70%] Built target robot_messages__rosidl_typesupport_c
+[3.285s] [ 70%] Built target robot_messages
+[3.309s] [ 74%] Built target robot_messages__py
+[3.321s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_generator_py[0m
+[3.347s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/robot_messages/librobot_messages__rosidl_generator_py.so[0m
+[3.393s] [ 80%] Built target robot_messages__rosidl_generator_py
+[3.418s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_typesupport_introspection_c__pyext[0m
+[3.418s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.418s] [35m[1mConsolidate compiler generated dependencies of target robot_messages__rosidl_typesupport_c__pyext[0m
+[3.442s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/robot_messages/robot_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.446s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/robot_messages/robot_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.465s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/robot_messages/robot_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.510s] [ 93%] Built target robot_messages__rosidl_typesupport_introspection_c__pyext
+[3.515s] [ 96%] Built target robot_messages__rosidl_typesupport_fastrtps_c__pyext
+[3.557s] [100%] Built target robot_messages__rosidl_typesupport_c__pyext
+[3.576s] Invoked command in '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages -- -j4 -l4
+[3.691s] Invoking command in '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages
+[3.705s] -- Install configuration: ""
+[3.705s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/ament_index/resource_index/rosidl_interfaces/robot_messages
+[3.705s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages
+[3.706s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg
+[3.706s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail
+[3.706s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__functions.h
+[3.707s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__functions.h
+[3.707s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__functions.c
+[3.707s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__type_support.h
+[3.707s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__functions.c
+[3.707s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__struct.h
+[3.708s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__struct.h
+[3.708s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__type_support.h
+[3.708s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__functions.h
+[3.708s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__struct.h
+[3.708s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__functions.c
+[3.708s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__type_support.h
+[3.708s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/num.h
+[3.709s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/rosidl_generator_c__visibility_control.h
+[3.709s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/target_position.h
+[3.709s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/targetposition.h
+[3.709s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/environment/library_path.sh
+[3.709s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/environment/library_path.dsv
+[3.710s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_generator_c.so
+[3.710s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_generator_c.so" to ""
+[3.710s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages
+[3.710s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg
+[3.710s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail
+[3.710s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[3.711s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__rosidl_typesupport_fastrtps_c.h
+[3.711s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__rosidl_typesupport_fastrtps_c.h
+[3.711s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.711s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_fastrtps_c.so
+[3.711s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_fastrtps_c.so" to ""
+[3.712s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages
+[3.712s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg
+[3.712s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail
+[3.712s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__type_support.c
+[3.712s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__rosidl_typesupport_introspection_c.h
+[3.712s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__rosidl_typesupport_introspection_c.h
+[3.713s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__rosidl_typesupport_introspection_c.h
+[3.713s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__type_support.c
+[3.713s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__type_support.c
+[3.713s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.713s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_introspection_c.so
+[3.713s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_introspection_c.so" to ""
+[3.714s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_c.so
+[3.714s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_c.so" to ""
+[3.715s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages
+[3.715s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg
+[3.715s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail
+[3.715s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__builder.hpp
+[3.716s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__traits.hpp
+[3.716s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__struct.hpp
+[3.716s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__struct.hpp
+[3.716s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__builder.hpp
+[3.716s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__builder.hpp
+[3.717s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__traits.hpp
+[3.717s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__traits.hpp
+[3.717s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__struct.hpp
+[3.717s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/targetposition.hpp
+[3.717s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/target_position.hpp
+[3.717s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/num.hpp
+[3.718s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages
+[3.718s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg
+[3.718s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail
+[3.718s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__rosidl_typesupport_fastrtps_cpp.hpp
+[3.718s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__rosidl_typesupport_fastrtps_cpp.hpp
+[3.718s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/dds_fastrtps
+[3.719s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[3.719s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.719s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_fastrtps_cpp.so
+[3.719s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.719s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages
+[3.720s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg
+[3.720s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail
+[3.720s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__type_support.cpp
+[3.720s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__type_support.cpp
+[3.720s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/target_position__rosidl_typesupport_introspection_cpp.hpp
+[3.720s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[3.720s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/targetposition__rosidl_typesupport_introspection_cpp.hpp
+[3.721s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/include/robot_messages/robot_messages/msg/detail/num__type_support.cpp
+[3.721s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_introspection_cpp.so
+[3.721s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_introspection_cpp.so" to ""
+[3.721s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_cpp.so
+[3.722s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_typesupport_cpp.so" to ""
+[3.722s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/environment/pythonpath.sh
+[3.722s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/environment/pythonpath.dsv
+[3.722s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages-0.0.0-py3.10.egg-info
+[3.723s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.723s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages-0.0.0-py3.10.egg-info/top_level.txt
+[3.723s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.723s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages-0.0.0-py3.10.egg-info/PKG-INFO
+[3.724s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages
+[3.724s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/robot_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.724s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/_robot_messages_s.ep.rosidl_typesupport_c.c
+[3.724s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/_robot_messages_s.ep.rosidl_typesupport_introspection_c.c
+[3.725s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.725s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/librobot_messages__rosidl_generator_py.so
+[3.725s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/__init__.py
+[3.725s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/robot_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.725s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/robot_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.726s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/msg
+[3.726s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/msg/_num_s.c
+[3.726s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/msg/_num.py
+[3.726s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/msg/_targetposition.py
+[3.726s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/msg/_target_position.py
+[3.727s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/msg/_targetposition_s.c
+[3.727s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/msg/__init__.py
+[3.727s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/msg/_target_position_s.c
+[3.794s] Listing '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages'...
+[3.795s] Compiling '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/__init__.py'...
+[3.795s] Listing '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/msg'...
+[3.799s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/robot_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.799s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/robot_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.800s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/robot_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.800s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/robot_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.800s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/robot_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.801s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/local/lib/python3.10/dist-packages/robot_messages/robot_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.801s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_generator_py.so
+[3.801s] -- Set runtime path of "/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/librobot_messages__rosidl_generator_py.so" to ""
+[3.802s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/msg/Targetposition.idl
+[3.802s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/msg/Targetposition.msg
+[3.802s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/ament_index/resource_index/package_run_dependencies/robot_messages
+[3.802s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/ament_index/resource_index/parent_prefix_path/robot_messages
+[3.802s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/environment/ament_prefix_path.sh
+[3.803s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/environment/ament_prefix_path.dsv
+[3.803s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/environment/path.sh
+[3.803s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/environment/path.dsv
+[3.804s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/local_setup.bash
+[3.804s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/local_setup.sh
+[3.804s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/local_setup.zsh
+[3.804s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/local_setup.dsv
+[3.805s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.dsv
+[3.805s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/ament_index/resource_index/packages/robot_messages
+[3.805s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/export_robot_messages__rosidl_generator_cExport.cmake
+[3.805s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/export_robot_messages__rosidl_generator_cExport-noconfig.cmake
+[3.806s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/export_robot_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[3.806s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/export_robot_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.806s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messages__rosidl_typesupport_introspection_cExport.cmake
+[3.806s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.807s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messages__rosidl_typesupport_cExport.cmake
+[3.807s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messages__rosidl_typesupport_cExport-noconfig.cmake
+[3.807s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/export_robot_messages__rosidl_generator_cppExport.cmake
+[3.807s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/export_robot_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.808s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/export_robot_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.808s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messages__rosidl_typesupport_introspection_cppExport.cmake
+[3.808s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.808s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messages__rosidl_typesupport_cppExport.cmake
+[3.808s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[3.808s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/export_robot_messages__rosidl_generator_pyExport.cmake
+[3.808s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/export_robot_messages__rosidl_generator_pyExport-noconfig.cmake
+[3.809s] -- Installing: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/rosidl_cmake-extras.cmake
+[3.809s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.809s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[3.809s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/ament_cmake_export_targets-extras.cmake
+[3.809s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.809s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.809s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.809s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messagesConfig.cmake
+[3.810s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/cmake/robot_messagesConfig-version.cmake
+[3.810s] -- Up-to-date: /home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.xml
+[3.813s] Invoked command in '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages

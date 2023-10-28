@@ -1,0 +1,24 @@
+[0.722s] Invoking command in '/home/hubot/Documents/Github/RobotArmV1/src/robot_controller/build/robot_controller': PYTHONPATH=/home/hubot/Documents/Github/RobotArmV1/src/robot_controller/build/robot_controller/prefix_override:/home/hubot/Documents/Github/RobotArmV1/src/robot_controller/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/build/robot_controller/build --no-deps install_data
+[1.020s] running develop
+[1.253s] running egg_info
+[1.253s] creating robot_controller.egg-info
+[1.254s] writing robot_controller.egg-info/PKG-INFO
+[1.254s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[1.254s] writing entry points to robot_controller.egg-info/entry_points.txt
+[1.254s] writing requirements to robot_controller.egg-info/requires.txt
+[1.255s] writing top-level names to robot_controller.egg-info/top_level.txt
+[1.255s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.258s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.259s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.262s] running build_ext
+[1.262s] Creating /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/install/robot_controller/lib/python3.10/site-packages/robot-controller.egg-link (link to .)
+[1.264s] Installing test_node = robot_controller.test_node:maintest_subscriber script to /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/install/robot_controller/lib/robot_controller
+[1.264s] 
+[1.264s] Installed /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/build/robot_controller
+[1.265s] running install_data
+[1.265s] creating /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/install/robot_controller/share/ament_index
+[1.265s] creating /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/install/robot_controller/share/ament_index/resource_index
+[1.265s] creating /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/install/robot_controller/share/ament_index/resource_index/packages
+[1.265s] copying resource/robot_controller -> /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/install/robot_controller/share/ament_index/resource_index/packages
+[1.266s] copying package.xml -> /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/install/robot_controller/share/robot_controller
+[1.338s] Invoked command in '/home/hubot/Documents/Github/RobotArmV1/src/robot_controller/build/robot_controller' returned '0': PYTHONPATH=/home/hubot/Documents/Github/RobotArmV1/src/robot_controller/build/robot_controller/prefix_override:/home/hubot/Documents/Github/RobotArmV1/src/robot_controller/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hubot/Documents/Github/RobotArmV1/src/robot_controller/build/robot_controller/build --no-deps install_data

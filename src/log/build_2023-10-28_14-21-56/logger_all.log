@@ -1,0 +1,186 @@
+[0.364s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.364s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f31ef3a7a90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f31ef3a7520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f31ef3a7520>>)
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.389s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hubot/Documents/Github/RobotArmV1/src'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(robot_controller) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(robot_controller) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(robot_controller) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(robot_controller) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(robot_controller) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(robot_controller) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(robot_controller) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(robot_controller) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_controller' with type 'ros.ament_python' and name 'robot_controller'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(robot_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(robot_messages) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(robot_messages) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(robot_messages) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(robot_messages) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(robot_messages) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(robot_messages) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(robot_messages) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(robot_messages) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_messages' with type 'ros.ament_cmake' and name 'robot_messages'
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.444s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/hubot/Documents/Github/RobotArmV1/src/install
+[0.445s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/hubot/Documents/Github/RobotArmV1/install
+[0.447s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller', 'merge_install': False, 'path': '/home/hubot/Documents/Github/RobotArmV1/src/robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'robot_messages' build argument 'cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'robot_messages' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'robot_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'robot_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'robot_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'robot_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'robot_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'robot_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'robot_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'robot_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages', 'merge_install': False, 'path': '/home/hubot/Documents/Github/RobotArmV1/src/robot_messages', 'symlink_install': False, 'test_result_base': None}
+[0.523s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.527s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.527s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hubot/Documents/Github/RobotArmV1/src/robot_controller' with build type 'ament_python'
+[0.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'ament_prefix_path')
+[0.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/hook/ament_prefix_path.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/hook/ament_prefix_path.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/hook/ament_prefix_path.sh'
+[0.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.542s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hubot/Documents/Github/RobotArmV1/src/robot_messages' with build type 'ament_cmake'
+[0.542s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hubot/Documents/Github/RobotArmV1/src/robot_messages'
+[0.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.544s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.880s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hubot/Documents/Github/RobotArmV1/src/robot_controller'
+[0.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages -- -j4 -l4
+[1.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hubot/Documents/Github/RobotArmV1/src/robot_controller': PYTHONPATH=/home/hubot/Documents/Github/RobotArmV1/src/build/robot_controller/prefix_override:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robot_controller build --build-base /home/hubot/Documents/Github/RobotArmV1/src/build/robot_controller/build install --record /home/hubot/Documents/Github/RobotArmV1/src/build/robot_controller/install.log --single-version-externally-managed
+[1.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hubot/Documents/Github/RobotArmV1/src/robot_controller' returned '0': PYTHONPATH=/home/hubot/Documents/Github/RobotArmV1/src/build/robot_controller/prefix_override:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robot_controller build --build-base /home/hubot/Documents/Github/RobotArmV1/src/build/robot_controller/build install --record /home/hubot/Documents/Github/RobotArmV1/src/build/robot_controller/install.log --single-version-externally-managed
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller' for CMake module files
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller' for CMake config files
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/lib'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/bin'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/lib/pkgconfig/robot_controller.pc'
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/lib/python3.10/site-packages'
+[1.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'pythonpath')
+[1.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/hook/pythonpath.ps1'
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/hook/pythonpath.dsv'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/hook/pythonpath.sh'
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/bin'
+[1.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller)
+[1.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/package.ps1'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/package.dsv'
+[1.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/package.sh'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/package.bash'
+[1.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/robot_controller/package.zsh'
+[1.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller/share/colcon-core/packages/robot_controller)
+[2.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages -- -j4 -l4
+[3.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages
+[3.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_messages)
+[3.185s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages' for CMake module files
+[3.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller:/home/hubot/Documents/Github/RobotArmV1/src/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/hubot/Documents/Github/RobotArmV1/src/build/robot_messages
+[3.186s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages' for CMake config files
+[3.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_messages', 'cmake_prefix_path')
+[3.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/cmake_prefix_path.ps1'
+[3.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/cmake_prefix_path.dsv'
+[3.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/cmake_prefix_path.sh'
+[3.190s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib'
+[3.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_messages', 'ld_library_path_lib')
+[3.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/ld_library_path_lib.ps1'
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/ld_library_path_lib.dsv'
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/ld_library_path_lib.sh'
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/bin'
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/pkgconfig/robot_messages.pc'
+[3.193s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/python3.10/site-packages'
+[3.193s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/bin'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.ps1'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.dsv'
+[3.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.sh'
+[3.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.bash'
+[3.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.zsh'
+[3.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/colcon-core/packages/robot_messages)
+[3.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_messages)
+[3.307s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages' for CMake module files
+[3.309s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages' for CMake config files
+[3.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_messages', 'cmake_prefix_path')
+[3.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/cmake_prefix_path.ps1'
+[3.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/cmake_prefix_path.dsv'
+[3.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/cmake_prefix_path.sh'
+[3.315s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib'
+[3.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_messages', 'ld_library_path_lib')
+[3.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/ld_library_path_lib.ps1'
+[3.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/ld_library_path_lib.dsv'
+[3.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/hook/ld_library_path_lib.sh'
+[3.320s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/bin'
+[3.320s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/pkgconfig/robot_messages.pc'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/lib/python3.10/site-packages'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/bin'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.ps1'
+[3.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.dsv'
+[3.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.sh'
+[3.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.bash'
+[3.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/robot_messages/package.zsh'
+[3.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hubot/Documents/Github/RobotArmV1/src/install/robot_messages/share/colcon-core/packages/robot_messages)
+[3.328s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.329s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.336s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.350s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.353s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hubot/Documents/Github/RobotArmV1/src/install/local_setup.ps1'
+[3.359s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hubot/Documents/Github/RobotArmV1/src/install/_local_setup_util_ps1.py'
+[3.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hubot/Documents/Github/RobotArmV1/src/install/setup.ps1'
+[3.365s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hubot/Documents/Github/RobotArmV1/src/install/local_setup.sh'
+[3.365s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hubot/Documents/Github/RobotArmV1/src/install/_local_setup_util_sh.py'
+[3.366s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hubot/Documents/Github/RobotArmV1/src/install/setup.sh'
+[3.368s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hubot/Documents/Github/RobotArmV1/src/install/local_setup.bash'
+[3.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hubot/Documents/Github/RobotArmV1/src/install/setup.bash'
+[3.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hubot/Documents/Github/RobotArmV1/src/install/local_setup.zsh'
+[3.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hubot/Documents/Github/RobotArmV1/src/install/setup.zsh'

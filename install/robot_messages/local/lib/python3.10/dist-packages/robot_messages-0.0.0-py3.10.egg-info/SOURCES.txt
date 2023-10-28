@@ -1,0 +1,11 @@
+setup.py
+robot_messages/__init__.py
+robot_messages.egg-info/PKG-INFO
+robot_messages.egg-info/SOURCES.txt
+robot_messages.egg-info/dependency_links.txt
+robot_messages.egg-info/top_level.txt
+robot_messages/msg/__init__.py
+robot_messages/msg/_num.py
+robot_messages/msg/_target_position.py
+robot_messages/msg/_targetposition.py
+robot_messages/msg/_trajectory_plan.py

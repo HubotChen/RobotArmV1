@@ -1,0 +1,25 @@
+[0.989s] Invoking command in '/home/hubot/Documents/Github/RobotArmV1/build/robot_controller': PYTHONPATH=/home/hubot/Documents/Github/RobotArmV1/build/robot_controller/prefix_override:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hubot/Documents/Github/RobotArmV1/build/robot_controller/build
+[1.364s] running develop
+[1.657s] Invoked command in '/home/hubot/Documents/Github/RobotArmV1/build/robot_controller' returned '0': PYTHONPATH=/home/hubot/Documents/Github/RobotArmV1/build/robot_controller/prefix_override:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hubot/Documents/Github/RobotArmV1/build/robot_controller/build
+[1.659s] Invoking command in '/home/hubot/Documents/Github/RobotArmV1/src/robot_controller': PYTHONPATH=/home/hubot/Documents/Github/RobotArmV1/build/robot_controller/prefix_override:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/hubot/Documents/Github/RobotArmV1/build/robot_controller/build install --record /home/hubot/Documents/Github/RobotArmV1/build/robot_controller/install.log --single-version-externally-managed
+[2.326s] running egg_info
+[2.326s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[2.326s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[2.326s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[2.329s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[2.329s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[2.341s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[2.346s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[2.346s] running build
+[2.346s] running build_py
+[2.350s] running install
+[2.350s] running install_lib
+[2.354s] running install_data
+[2.356s] running install_egg_info
+[2.361s] removing '/home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.371s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[2.374s] running install_scripts
+[2.414s] Installing test_node script to /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/robot_controller
+[2.416s] Installing test_subscriber script to /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/robot_controller
+[2.418s] writing list of installed files to '/home/hubot/Documents/Github/RobotArmV1/build/robot_controller/install.log'
+[2.482s] Invoked command in '/home/hubot/Documents/Github/RobotArmV1/src/robot_controller' returned '0': PYTHONPATH=/home/hubot/Documents/Github/RobotArmV1/build/robot_controller/prefix_override:/home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/hubot/Documents/Github/RobotArmV1/build/robot_controller/build install --record /home/hubot/Documents/Github/RobotArmV1/build/robot_controller/install.log --single-version-externally-managed
