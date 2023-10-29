@@ -12,6 +12,7 @@ resource/robot_controller
 robot_controller/__init__.py
 robot_controller/test_node.py
 robot_controller/test_subscriber.py
+robot_controller/trajectory_planner.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

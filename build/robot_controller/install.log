@@ -1,9 +1,11 @@
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller/test_node.py
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller/test_subscriber.py
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py
+/home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller/trajectory_planner.py
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/test_node.cpython-310.pyc
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/test_subscriber.cpython-310.pyc
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/__init__.cpython-310.pyc
+/home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/trajectory_planner.cpython-310.pyc
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/share/robot_controller/package.xml
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/entry_points.txt
@@ -15,3 +17,4 @@
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/zip-safe
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/robot_controller/test_node
 /home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/robot_controller/test_subscriber
+/home/hubot/Documents/Github/RobotArmV1/install/robot_controller/lib/robot_controller/trajectory_planner

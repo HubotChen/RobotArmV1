@@ -6,7 +6,7 @@ from robot_messages.msg import TargetPosition
 class TestPublisher(Node):
     def __init__(self):
         super().__init__("testing_publisher")
-        self.message_publisher_ = self.create_publisher(TargetPosition, 'topic', 10)
+        self.message_publisher_ = self.create_publisher(TargetPosition, 'target_position', 10)
 
         self.create_timer(1.0, self.timer_callback)
     

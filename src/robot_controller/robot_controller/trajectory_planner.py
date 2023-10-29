@@ -22,7 +22,7 @@ class TrajectoryPlanner(Node):
     
     def send_trajectory_plan_callback(self, j1):
         trajectoryPlan = TrajectoryPlan()
-        trajectoryPlan.j1[0] = j1
+        trajectoryPlan.j1 = [j1]
         self.message_publisher_.publish(trajectoryPlan)
         self.get_logger().info('Publishing: "%d"' % trajectoryPlan.j1[0])
 
