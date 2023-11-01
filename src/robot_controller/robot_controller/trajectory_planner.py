@@ -8,10 +8,10 @@ class TrajectoryPlanner(Node):
 
     def __init__(self):
         super().__init__("trajectory_planner")
-        self.test_subscriber = self.create_subscription(
+        self.target_position_subscriber = self.create_subscription(
             TargetPosition, "target_position", self.recieve_target_position_callback, 10
         )
-        self.message_publisher_ = self.create_publisher(
+        self.trajectory_plan_publisher = self.create_publisher(
             TrajectoryPlan, 'trajectory_plan', 10
         )
 
@@ -23,8 +23,12 @@ class TrajectoryPlanner(Node):
     def send_trajectory_plan_callback(self, j1):
         trajectoryPlan = TrajectoryPlan()
         trajectoryPlan.j1 = [j1]
-        self.message_publisher_.publish(trajectoryPlan)
+        self.trajectory_plan_publisher.publish(trajectoryPlan)
         self.get_logger().info('Publishing: "%d"' % trajectoryPlan.j1[0])
+
+    def open_ui(self):
+
+        pass
 
     
 
