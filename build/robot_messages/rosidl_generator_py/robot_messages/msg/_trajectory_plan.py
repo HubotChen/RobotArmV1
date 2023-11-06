@@ -71,7 +71,6 @@ class TrajectoryPlan(metaclass=Metaclass_TrajectoryPlan):
         '_j4',
         '_j5',
         '_j6',
-        '_execution_time',
     ]
 
     _fields_and_field_types = {
@@ -81,7 +80,6 @@ class TrajectoryPlan(metaclass=Metaclass_TrajectoryPlan):
         'j4': 'sequence<float>',
         'j5': 'sequence<float>',
         'j6': 'sequence<float>',
-        'execution_time': 'float',
     }
 
     SLOT_TYPES = (
@@ -91,7 +89,6 @@ class TrajectoryPlan(metaclass=Metaclass_TrajectoryPlan):
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('float')),  # noqa: E501
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('float')),  # noqa: E501
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('float')),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -104,7 +101,6 @@ class TrajectoryPlan(metaclass=Metaclass_TrajectoryPlan):
         self.j4 = array.array('f', kwargs.get('j4', []))
         self.j5 = array.array('f', kwargs.get('j5', []))
         self.j6 = array.array('f', kwargs.get('j6', []))
-        self.execution_time = kwargs.get('execution_time', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -146,8 +142,6 @@ class TrajectoryPlan(metaclass=Metaclass_TrajectoryPlan):
         if self.j5 != other.j5:
             return False
         if self.j6 != other.j6:
-            return False
-        if self.execution_time != other.execution_time:
             return False
         return True
 
@@ -323,18 +317,3 @@ class TrajectoryPlan(metaclass=Metaclass_TrajectoryPlan):
                  all(not (val < -3.402823466e+38 or val > 3.402823466e+38) or math.isinf(val) for val in value)), \
                 "The 'j6' field must be a set or sequence and each value of type 'float' and each float in [-340282346600000016151267322115014000640.000000, 340282346600000016151267322115014000640.000000]"
         self._j6 = array.array('f', value)
-
-    @builtins.property
-    def execution_time(self):
-        """Message field 'execution_time'."""
-        return self._execution_time
-
-    @execution_time.setter
-    def execution_time(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'execution_time' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'execution_time' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._execution_time = value

@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
     "/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages:msg/TrajectoryPlan.idl",
-    "/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages:msg/TargetPosition.idl"
+    "/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages:msg/TargetPosition.idl",
+    "/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages:msg/JointGoal.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -23,6 +24,7 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages/msg/TrajectoryPlan.idl",
-    "/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages/msg/TargetPosition.idl"
+    "/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages/msg/TargetPosition.idl",
+    "/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages/msg/JointGoal.idl"
   ]
 }

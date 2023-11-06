@@ -35,21 +35,13 @@ struct TrajectoryPlan_
 
   explicit TrajectoryPlan_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->execution_time = 0.0f;
-    }
+    (void)_init;
   }
 
   explicit TrajectoryPlan_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
+    (void)_init;
     (void)_alloc;
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->execution_time = 0.0f;
-    }
   }
 
   // field types and members
@@ -71,9 +63,6 @@ struct TrajectoryPlan_
   using _j6_type =
     std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>>;
   _j6_type j6;
-  using _execution_time_type =
-    float;
-  _execution_time_type execution_time;
 
   // setters for named parameter idiom
   Type & set__j1(
@@ -110,12 +99,6 @@ struct TrajectoryPlan_
     const std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> & _arg)
   {
     this->j6 = _arg;
-    return *this;
-  }
-  Type & set__execution_time(
-    const float & _arg)
-  {
-    this->execution_time = _arg;
     return *this;
   }
 
@@ -177,9 +160,6 @@ struct TrajectoryPlan_
       return false;
     }
     if (this->j6 != other.j6) {
-      return false;
-    }
-    if (this->execution_time != other.execution_time) {
       return false;
     }
     return true;

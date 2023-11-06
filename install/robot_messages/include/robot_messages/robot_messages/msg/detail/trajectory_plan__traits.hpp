@@ -130,13 +130,6 @@ inline void to_flow_style_yaml(
       }
       out << "]";
     }
-    out << ", ";
-  }
-
-  // member: execution_time
-  {
-    out << "execution_time: ";
-    rosidl_generator_traits::value_to_yaml(msg.execution_time, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -263,16 +256,6 @@ inline void to_block_style_yaml(
         out << "\n";
       }
     }
-  }
-
-  // member: execution_time
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "execution_time: ";
-    rosidl_generator_traits::value_to_yaml(msg.execution_time, out);
-    out << "\n";
   }
 }  // NOLINT(readability/fn_size)
 

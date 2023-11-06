@@ -21,32 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_TrajectoryPlan_execution_time
-{
-public:
-  explicit Init_TrajectoryPlan_execution_time(::robot_messages::msg::TrajectoryPlan & msg)
-  : msg_(msg)
-  {}
-  ::robot_messages::msg::TrajectoryPlan execution_time(::robot_messages::msg::TrajectoryPlan::_execution_time_type arg)
-  {
-    msg_.execution_time = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::robot_messages::msg::TrajectoryPlan msg_;
-};
-
 class Init_TrajectoryPlan_j6
 {
 public:
   explicit Init_TrajectoryPlan_j6(::robot_messages::msg::TrajectoryPlan & msg)
   : msg_(msg)
   {}
-  Init_TrajectoryPlan_execution_time j6(::robot_messages::msg::TrajectoryPlan::_j6_type arg)
+  ::robot_messages::msg::TrajectoryPlan j6(::robot_messages::msg::TrajectoryPlan::_j6_type arg)
   {
     msg_.j6 = std::move(arg);
-    return Init_TrajectoryPlan_execution_time(msg_);
+    return std::move(msg_);
   }
 
 private:

@@ -35,7 +35,6 @@ typedef struct robot_messages__msg__TrajectoryPlan
   rosidl_runtime_c__float__Sequence j4;
   rosidl_runtime_c__float__Sequence j5;
   rosidl_runtime_c__float__Sequence j6;
-  float execution_time;
 } robot_messages__msg__TrajectoryPlan;
 
 // Struct for a sequence of robot_messages__msg__TrajectoryPlan.

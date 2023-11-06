@@ -68,6 +68,7 @@ include CMakeFiles/robot_messages.dir/progress.make
 
 CMakeFiles/robot_messages: /home/hubot/Documents/Github/RobotArmV1/src/robot_messages/msg/TrajectoryPlan.msg
 CMakeFiles/robot_messages: /home/hubot/Documents/Github/RobotArmV1/src/robot_messages/msg/TargetPosition.msg
+CMakeFiles/robot_messages: /home/hubot/Documents/Github/RobotArmV1/src/robot_messages/msg/JointGoal.msg
 
 robot_messages: CMakeFiles/robot_messages
 robot_messages: CMakeFiles/robot_messages.dir/build.make

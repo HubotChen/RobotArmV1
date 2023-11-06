@@ -307,7 +307,7 @@ void resize_function__TrajectoryPlan__j6(void * untyped_member, size_t size)
   member->resize(size);
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember TrajectoryPlan_message_member_array[7] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember TrajectoryPlan_message_member_array[6] = {
   {
     "j1",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
@@ -409,30 +409,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember TrajectoryPla
     fetch_function__TrajectoryPlan__j6,  // fetch(index, &value) function pointer
     assign_function__TrajectoryPlan__j6,  // assign(index, value) function pointer
     resize_function__TrajectoryPlan__j6  // resize(index) function pointer
-  },
-  {
-    "execution_time",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(robot_messages::msg::TrajectoryPlan, execution_time),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers TrajectoryPlan_message_members = {
   "robot_messages::msg",  // message namespace
   "TrajectoryPlan",  // message name
-  7,  // number of fields
+  6,  // number of fields
   sizeof(robot_messages::msg::TrajectoryPlan),
   TrajectoryPlan_message_member_array,  // message members
   TrajectoryPlan_init_function,  // function to initialize message memory (memory has to be allocated)

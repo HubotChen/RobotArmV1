@@ -71,9 +71,11 @@ robot_messages__py/CMakeFiles/robot_messages__py: rosidl_generator_py/robot_mess
 robot_messages__py/CMakeFiles/robot_messages__py: rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_c.c
 robot_messages__py/CMakeFiles/robot_messages__py: rosidl_generator_py/robot_messages/msg/_trajectory_plan.py
 robot_messages__py/CMakeFiles/robot_messages__py: rosidl_generator_py/robot_messages/msg/_target_position.py
+robot_messages__py/CMakeFiles/robot_messages__py: rosidl_generator_py/robot_messages/msg/_joint_goal.py
 robot_messages__py/CMakeFiles/robot_messages__py: rosidl_generator_py/robot_messages/msg/__init__.py
 robot_messages__py/CMakeFiles/robot_messages__py: rosidl_generator_py/robot_messages/msg/_trajectory_plan_s.c
 robot_messages__py/CMakeFiles/robot_messages__py: rosidl_generator_py/robot_messages/msg/_target_position_s.c
+robot_messages__py/CMakeFiles/robot_messages__py: rosidl_generator_py/robot_messages/msg/_joint_goal_s.c
 
 rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -90,6 +92,7 @@ rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/robot_messages/msg/TrajectoryPlan.idl
 rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/robot_messages/msg/TargetPosition.idl
+rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/robot_messages/msg/JointGoal.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/robot_messages__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -105,6 +108,9 @@ rosidl_generator_py/robot_messages/msg/_trajectory_plan.py: rosidl_generator_py/
 rosidl_generator_py/robot_messages/msg/_target_position.py: rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_messages/msg/_target_position.py
 
+rosidl_generator_py/robot_messages/msg/_joint_goal.py: rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_messages/msg/_joint_goal.py
+
 rosidl_generator_py/robot_messages/msg/__init__.py: rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_messages/msg/__init__.py
 
@@ -114,11 +120,16 @@ rosidl_generator_py/robot_messages/msg/_trajectory_plan_s.c: rosidl_generator_py
 rosidl_generator_py/robot_messages/msg/_target_position_s.c: rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_messages/msg/_target_position_s.c
 
+rosidl_generator_py/robot_messages/msg/_joint_goal_s.c: rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_messages/msg/_joint_goal_s.c
+
 robot_messages__py: robot_messages__py/CMakeFiles/robot_messages__py
 robot_messages__py: rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_c.c
 robot_messages__py: rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 robot_messages__py: rosidl_generator_py/robot_messages/_robot_messages_s.ep.rosidl_typesupport_introspection_c.c
 robot_messages__py: rosidl_generator_py/robot_messages/msg/__init__.py
+robot_messages__py: rosidl_generator_py/robot_messages/msg/_joint_goal.py
+robot_messages__py: rosidl_generator_py/robot_messages/msg/_joint_goal_s.c
 robot_messages__py: rosidl_generator_py/robot_messages/msg/_target_position.py
 robot_messages__py: rosidl_generator_py/robot_messages/msg/_target_position_s.c
 robot_messages__py: rosidl_generator_py/robot_messages/msg/_trajectory_plan.py

@@ -74,6 +74,10 @@ CMakeFiles/robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/target_p
 CMakeFiles/robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/target_position__builder.hpp
 CMakeFiles/robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/target_position__struct.hpp
 CMakeFiles/robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/target_position__traits.hpp
+CMakeFiles/robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/joint_goal.hpp
+CMakeFiles/robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__builder.hpp
+CMakeFiles/robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__struct.hpp
+CMakeFiles/robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__traits.hpp
 
 rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -92,6 +96,7 @@ rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp: /opt/ros/humble/sha
 rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp: rosidl_adapter/robot_messages/msg/TrajectoryPlan.idl
 rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp: rosidl_adapter/robot_messages/msg/TargetPosition.idl
+rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp: rosidl_adapter/robot_messages/msg/JointGoal.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_cpp__arguments.json
 
@@ -116,13 +121,29 @@ rosidl_generator_cpp/robot_messages/msg/detail/target_position__struct.hpp: rosi
 rosidl_generator_cpp/robot_messages/msg/detail/target_position__traits.hpp: rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_messages/msg/detail/target_position__traits.hpp
 
+rosidl_generator_cpp/robot_messages/msg/joint_goal.hpp: rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_messages/msg/joint_goal.hpp
+
+rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__builder.hpp: rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__builder.hpp
+
+rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__struct.hpp: rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__struct.hpp
+
+rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__traits.hpp: rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__traits.hpp
+
 robot_messages__cpp: CMakeFiles/robot_messages__cpp
+robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__builder.hpp
+robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__struct.hpp
+robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/joint_goal__traits.hpp
 robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/target_position__builder.hpp
 robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/target_position__struct.hpp
 robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/target_position__traits.hpp
 robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/trajectory_plan__builder.hpp
 robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/trajectory_plan__struct.hpp
 robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/detail/trajectory_plan__traits.hpp
+robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/joint_goal.hpp
 robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/target_position.hpp
 robot_messages__cpp: rosidl_generator_cpp/robot_messages/msg/trajectory_plan.hpp
 robot_messages__cpp: CMakeFiles/robot_messages__cpp.dir/build.make

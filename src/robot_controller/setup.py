@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             "test_node = robot_controller.test_node:main",
             "test_subscriber = robot_controller.test_subscriber:main",
-            "trajectory_planner = robot_controller.trajectory_planner:main"
+            "trajectory_planner = robot_controller.trajectory_planner:main",
+            "user_interface = robot_controller.user_interface:main",
+            "plan_executor = robot_controller.plan_executor:main"
         ],
     },
 )

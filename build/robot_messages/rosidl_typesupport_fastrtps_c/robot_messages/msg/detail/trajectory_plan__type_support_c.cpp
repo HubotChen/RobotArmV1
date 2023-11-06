@@ -99,11 +99,6 @@ static bool _TrajectoryPlan__cdr_serialize(
     cdr.serializeArray(array_ptr, size);
   }
 
-  // Field name: execution_time
-  {
-    cdr << ros_message->execution_time;
-  }
-
   return true;
 }
 
@@ -212,11 +207,6 @@ static bool _TrajectoryPlan__cdr_deserialize(
     cdr.deserializeArray(array_ptr, size);
   }
 
-  // Field name: execution_time
-  {
-    cdr >> ros_message->execution_time;
-  }
-
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -298,12 +288,6 @@ size_t get_serialized_size_robot_messages__msg__TrajectoryPlan(
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name execution_time
-  {
-    size_t item_size = sizeof(ros_message->execution_time);
-    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -395,13 +379,6 @@ size_t max_serialized_size_robot_messages__msg__TrajectoryPlan(
     is_plain = false;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: execution_time
-  {
-    size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));

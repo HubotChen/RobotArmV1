@@ -56,7 +56,6 @@ robot_messages__msg__TrajectoryPlan__init(robot_messages__msg__TrajectoryPlan * 
     robot_messages__msg__TrajectoryPlan__fini(msg);
     return false;
   }
-  // execution_time
   return true;
 }
 
@@ -78,7 +77,6 @@ robot_messages__msg__TrajectoryPlan__fini(robot_messages__msg__TrajectoryPlan * 
   rosidl_runtime_c__float__Sequence__fini(&msg->j5);
   // j6
   rosidl_runtime_c__float__Sequence__fini(&msg->j6);
-  // execution_time
 }
 
 bool
@@ -121,10 +119,6 @@ robot_messages__msg__TrajectoryPlan__are_equal(const robot_messages__msg__Trajec
   if (!rosidl_runtime_c__float__Sequence__are_equal(
       &(lhs->j6), &(rhs->j6)))
   {
-    return false;
-  }
-  // execution_time
-  if (lhs->execution_time != rhs->execution_time) {
     return false;
   }
   return true;
@@ -174,8 +168,6 @@ robot_messages__msg__TrajectoryPlan__copy(
   {
     return false;
   }
-  // execution_time
-  output->execution_time = input->execution_time;
   return true;
 }
 

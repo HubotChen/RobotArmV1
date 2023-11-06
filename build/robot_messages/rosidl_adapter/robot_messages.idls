@@ -1,2 +1,3 @@
 /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages:msg/TrajectoryPlan.idl
 /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages:msg/TargetPosition.idl
+/home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_adapter/robot_messages:msg/JointGoal.idl

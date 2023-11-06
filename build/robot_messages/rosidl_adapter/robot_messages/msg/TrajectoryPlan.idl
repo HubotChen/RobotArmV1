@@ -17,8 +17,6 @@ module robot_messages {
       sequence<float> j5;
 
       sequence<float> j6;
-
-      float execution_time;
     };
   };
 };

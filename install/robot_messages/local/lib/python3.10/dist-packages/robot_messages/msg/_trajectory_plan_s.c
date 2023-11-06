@@ -425,15 +425,6 @@ bool robot_messages__msg__trajectory_plan__convert_from_py(PyObject * _pymsg, vo
     }
     Py_DECREF(field);
   }
-  {  // execution_time
-    PyObject * field = PyObject_GetAttrString(_pymsg, "execution_time");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->execution_time = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
 
   return true;
 }
@@ -797,17 +788,6 @@ PyObject * robot_messages__msg__trajectory_plan__convert_to_py(void * raw_ros_me
       Py_DECREF(ret);
     }
     Py_DECREF(field);
-  }
-  {  // execution_time
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->execution_time);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "execution_time", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
   }
 
   // ownership of _pymessage is transferred to the caller

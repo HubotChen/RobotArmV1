@@ -208,4 +208,7 @@ CMakeFiles/robot_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/r
  /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_c/robot_messages/msg/detail/trajectory_plan__functions.h \
  /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_c/robot_messages/msg/detail/target_position__type_support.h \
  /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_c/robot_messages/msg/detail/target_position__struct.h \
- /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_c/robot_messages/msg/detail/target_position__functions.h
+ /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_c/robot_messages/msg/detail/target_position__functions.h \
+ /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_c/robot_messages/msg/detail/joint_goal__type_support.h \
+ /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_c/robot_messages/msg/detail/joint_goal__struct.h \
+ /home/hubot/Documents/Github/RobotArmV1/build/robot_messages/rosidl_generator_c/robot_messages/msg/detail/joint_goal__functions.h

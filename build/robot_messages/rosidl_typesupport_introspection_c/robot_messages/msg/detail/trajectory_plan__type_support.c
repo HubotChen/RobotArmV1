@@ -370,7 +370,7 @@ bool robot_messages__msg__TrajectoryPlan__rosidl_typesupport_introspection_c__re
   return rosidl_runtime_c__float__Sequence__init(member, size);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember robot_messages__msg__TrajectoryPlan__rosidl_typesupport_introspection_c__TrajectoryPlan_message_member_array[7] = {
+static rosidl_typesupport_introspection_c__MessageMember robot_messages__msg__TrajectoryPlan__rosidl_typesupport_introspection_c__TrajectoryPlan_message_member_array[6] = {
   {
     "j1",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
@@ -472,30 +472,13 @@ static rosidl_typesupport_introspection_c__MessageMember robot_messages__msg__Tr
     robot_messages__msg__TrajectoryPlan__rosidl_typesupport_introspection_c__fetch_function__TrajectoryPlan__j6,  // fetch(index, &value) function pointer
     robot_messages__msg__TrajectoryPlan__rosidl_typesupport_introspection_c__assign_function__TrajectoryPlan__j6,  // assign(index, value) function pointer
     robot_messages__msg__TrajectoryPlan__rosidl_typesupport_introspection_c__resize_function__TrajectoryPlan__j6  // resize(index) function pointer
-  },
-  {
-    "execution_time",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(robot_messages__msg__TrajectoryPlan, execution_time),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers robot_messages__msg__TrajectoryPlan__rosidl_typesupport_introspection_c__TrajectoryPlan_message_members = {
   "robot_messages__msg",  // message namespace
   "TrajectoryPlan",  // message name
-  7,  // number of fields
+  6,  // number of fields
   sizeof(robot_messages__msg__TrajectoryPlan),
   robot_messages__msg__TrajectoryPlan__rosidl_typesupport_introspection_c__TrajectoryPlan_message_member_array,  // message members
   robot_messages__msg__TrajectoryPlan__rosidl_typesupport_introspection_c__TrajectoryPlan_init_function,  // function to initialize message memory (memory has to be allocated)
